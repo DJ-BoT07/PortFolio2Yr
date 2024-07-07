@@ -1,0 +1,26 @@
+
+  
+  .App {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: rgb(255, 255, 255);
+  }
+  
+  .title {
+    font-size: 10rem;
+    color: rgb(11, 11, 11)
+  }
+  
+  .cursor {
+    background-color: #9ee1e9;
+    color: blueviolet;
+    height: 32px;
+    width: 32px;
+    border-radius: 50%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    pointer-events: none;
+  }
